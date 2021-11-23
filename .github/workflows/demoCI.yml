@@ -26,7 +26,7 @@ jobs:
         repository: Harjun751/HelloWorldDemoT02
         
     - name: Checkout private repo remotely
-      uses: action/checkout@v2
+      uses: actions/checkout@v2
       with:
         repository: lowkh2/DevOpsQARepo
         path: tests
